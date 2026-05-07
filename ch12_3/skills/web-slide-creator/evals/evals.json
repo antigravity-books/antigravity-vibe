@@ -1,0 +1,26 @@
+{
+  "skill_name": "web-slide-creator",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "Add-14th-Slide",
+      "prompt": "14번째 슬라이드를 추가해줘. 주제는 'AI와 인간의 협업 미래'이고, 중앙 정렬 레이아웃을 사용해. HUD의 슬라이드 번호도 14로 업데이트해야 해.",
+      "expected_output": "Added `<section id='slide-14'>` in index.html, and updated `<div id='slide-number'>` to `01 / 14`.",
+      "files": ["index.html"]
+    },
+    {
+      "id": 2,
+      "eval_name": "Fix-Existing-Slide-7",
+      "prompt": "7번 슬라이드의 내용을 3단 그리드 카드로 변경하고, 각 카드에 [data-step] 속성을 추가해서 순차 등장하게 해줘.",
+      "expected_output": "Modified slide-7's structure to `.grid-3col` with `.step-card` elements, all containing `[data-step]`.",
+      "files": ["index.html"]
+    },
+    {
+      "id": 3,
+      "eval_name": "Analytics-Integration",
+      "prompt": "15번째 슬라이드를 추가하고, AI 도입 전후의 비용 절감 효과를 보여주는 ApexCharts를 넣어줘. script.js의 initCharts도 업데이트해야 해.",
+      "expected_output": "New slide-15 with a chart div, updated HUD to 15, and new chart logic in script.js following the `this.getPaletteColor()` pattern.",
+      "files": ["index.html", "script.js"]
+    }
+  ]
+}

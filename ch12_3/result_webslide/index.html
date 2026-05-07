@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeCoding: 일하는 방식의 변화</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Charts -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="presentation-wrapper">
+        <main id="presentation" class="presentation">
+            <!-- Slide 1: Hero -->
+            <section class="slide current" id="slide-0">
+                <div class="content hero-content">
+                    <div class="badge-amber" data-step>Premium Vision</div>
+                    <h1 data-step>VibeCoding</h1>
+                    <h2 data-step class="hero-subtitle">혁신적인 일하는 방식의 변화</h2>
+                    <div class="hero-footer" data-step>
+                        <span>2026. 04. 06</span>
+                        <span class="separator">|</span>
+                        <span>Antigravity Studio</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2: Definition -->
+            <section class="slide" id="slide-1">
+                <header class="slide-header">
+                    <div class="badge">01. Definition</div>
+                    <h2>프롬프트 중심의 개발 경험</h2>
+                </header>
+                <div class="content grid-2">
+                    <div class="glass-card" data-step>
+                        <i data-lucide="terminal" class="icon-amber"></i>
+                        <h3>바이브코딩이란?</h3>
+                        <p>단순히 코드를 작성하는 단계를 넘어, 자연어 프롬프트를 통해 AI와 협업하여 복잡한 로직을 구현하는 새로운 개발 패러다임입니다.</p>
+                    </div>
+                    <div class="glass-card" data-step>
+                        <i data-lucide="zap" class="icon-amber"></i>
+                        <h3>핵심 가치</h3>
+                        <ul class="list-check">
+                            <li>직관적인 요구사항 전달</li>
+                            <li>실시간 피드백 루프</li>
+                            <li>창의적 문제 해결 집중</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: Efficiency Chart -->
+            <section class="slide" id="slide-2">
+                <header class="slide-header">
+                    <div class="badge">02. Efficiency</div>
+                    <h2>비약적인 생산성 향상</h2>
+                </header>
+                <div class="content flex-column">
+                    <div class="chart-wrapper glass-card" data-step>
+                        <div id="efficiency-chart" class="chart-container"></div>
+                    </div>
+                    <p class="chart-caption" data-step>기존 수동 코딩 대비 기능 구현 속도 비교 (단위: Point)</p>
+                </div>
+            </section>
+
+            <!-- Slide 4: Focus Shift -->
+            <section class="slide" id="slide-3">
+                <header class="slide-header">
+                    <div class="badge">03. Transformation</div>
+                    <h2>구문 검색에서 로직 설계로</h2>
+                </header>
+                <div class="content grid-2">
+                    <div class="glass-card accent-left" data-step>
+                        <div class="card-tag">Traditional</div>
+                        <p>구글링, 스택오버플로우 검색, API 문서 탐독, 오타 및 문법 에러 수정에 전체 시간의 70%를 소비</p>
+                    </div>
+                    <div class="glass-card accent-amber" data-step>
+                        <div class="card-tag amber">VibeCoding</div>
+                        <p>비즈니스 로직 설계, 소프트웨어 아키텍처 고민, 사용자 경험(UX) 최적화에 집중하는 환경</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Speed -->
+            <section class="slide" id="slide-4">
+                <header class="slide-header">
+                    <div class="badge">04. Implementation</div>
+                    <h2>생각의 속도로 구현하는 아이디어</h2>
+                </header>
+                <div class="content">
+                    <div class="steps-container">
+                        <div class="step-item" data-step>
+                            <div class="step-num">01</div>
+                            <div class="step-text">추상적 아이디어 정의</div>
+                        </div>
+                        <div class="step-line" data-step></div>
+                        <div class="step-item" data-step>
+                            <div class="step-num">02</div>
+                            <div class="step-text">프롬프트 엔지니어링</div>
+                        </div>
+                        <div class="step-line" data-step></div>
+                        <div class="step-item" data-step>
+                            <div class="step-num">03</div>
+                            <div class="step-text">자동 코드 생성 및 검증</div>
+                        </div>
+                    </div>
+                    <div class="highlight-box glass-card" data-step>
+                        <p>"개발자는 더 이상 코드를 쳐서 입력하지 않습니다. <strong>의도를 명확히 전달할 뿐입니다.</strong>"</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: Collaboration -->
+            <section class="slide" id="slide-5">
+                <header class="slide-header">
+                    <div class="badge">05. Collaboration</div>
+                    <h2>AI-Human 페어 프로그래밍</h2>
+                </header>
+                <div class="content grid-2">
+                    <div class="glass-card" data-step>
+                        <i data-lucide="users" class="icon-amber"></i>
+                        <h3>상호 작용 모델</h3>
+                        <p>AI는 구현을 담당하고, 인간은 가이드라인을 제시하며 끊임없이 교류하는 동반자 관계</p>
+                    </div>
+                    <div class="glass-card" data-step>
+                        <i data-lucide="brain-circuit" class="icon-amber"></i>
+                        <h3>지능형 지원</h3>
+                        <p>맥락을 이해하는 제안, 최적의 라이브러리 추천, 보안 취약점 사전 감지</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Learning -->
+            <section class="slide" id="slide-6">
+                <header class="slide-header">
+                    <div class="badge">06. Learning</div>
+                    <h2>실시간 지식 습득 프로세스</h2>
+                </header>
+                <div class="content">
+                    <div class="learning-grid">
+                        <div class="learning-card glass-card" data-step>
+                            <h3>Just-in-Time</h3>
+                            <p>필요한 시점에 즉시 학습하고 적용하는 능동적 학습</p>
+                        </div>
+                        <div class="learning-card glass-card" data-step>
+                            <h3>AI Tutoring</h3>
+                            <p>작성된 코드에 대한 상세 설명을 통한 자연스러운 역량 강화</p>
+                        </div>
+                        <div class="learning-card glass-card" data-step>
+                            <h3>Pattern Knowledge</h3>
+                            <p>수만 개의 오픈소스 패턴을 즉시 활용하는 지식의 평준화</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8: Quality Chart -->
+            <section class="slide" id="slide-7">
+                <header class="slide-header">
+                    <div class="badge">07. Quality</div>
+                    <h2>오류 감소와 코드 품질 향상</h2>
+                </header>
+                <div class="content grid-2-chart">
+                    <div class="chart-container-radial glass-card" data-step>
+                        <div id="quality-chart"></div>
+                    </div>
+                    <div class="quality-info" data-step>
+                        <div class="info-item">
+                            <span class="info-label">버그 발견 속도</span>
+                            <span class="info-value highlight-amber">85% Faster</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">테스트 커버리지</span>
+                            <span class="info-value highlight-amber">92% Increase</span>
+                        </div>
+                        <p class="description">AI의 자동 정적 분석과 테스트 코드 생성을 통해 소프트웨어의 견고함이 비약적으로 상승합니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 9: Role Change -->
+            <section class="slide" id="slide-8">
+                <header class="slide-header">
+                    <div class="badge">08. Future Role</div>
+                    <h2>코더에서 오케스트레이터로</h2>
+                </header>
+                <div class="content flex-center">
+                    <div class="role-shift-container glass-card" data-step>
+                        <div class="role-from">
+                            <span class="label">From</span>
+                            <span class="title">CODER</span>
+                            <span class="desc">코드 작성자</span>
+                        </div>
+                        <div class="role-arrow pulse">
+                            <i data-lucide="chevrons-right"></i>
+                        </div>
+                        <div class="role-to">
+                            <span class="label">To</span>
+                            <span class="title highlight-amber">ORCHESTRATOR</span>
+                            <span class="desc">시스템 지휘자</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 10: Conclusion -->
+            <section class="slide" id="slide-9">
+                <header class="slide-header">
+                    <div class="badge">Final Summary</div>
+                    <h2>미래를 선점하는 바이브코딩</h2>
+                </header>
+                <div class="content">
+                    <div class="summary-grid">
+                        <div class="summary-item glass-card" data-step>
+                            <h3>도구의 혁신</h3>
+                            <p>더 이상 타이핑이 아닌 대화로 만드는 세상</p>
+                        </div>
+                        <div class="summary-item glass-card" data-step>
+                            <h3>인간의 가치</h3>
+                            <p>창의성과 아키텍처 설계 능력이 핵심 경쟁력</p>
+                        </div>
+                        <div class="summary-item glass-card" data-step>
+                            <h3>지속 가능한 성장</h3>
+                            <p>AI와 공존하며 더 높은 가치를 창출하는 개발 문화</p>
+                        </div>
+                    </div>
+                    <div class="final-callout" data-step>
+                        <h3>당신은 지휘할 준비가 되었습니까?</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- HUD Navigation -->
+        <div id="hud-overlay" class="hud-overlay">
+            <div class="hud-left">
+                <span class="hud-brand">VIBE CODING</span>
+                <div class="hud-divider"></div>
+                <span id="page-indicator" class="hud-indicator">01 / 10</span>
+            </div>
+            <div class="hud-center">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+            <div class="hud-right">
+                <div class="oval-toggle">
+                    <input type="checkbox" id="theme-toggle" class="toggle-input">
+                    <label for="theme-toggle" class="toggle-label">
+                        <i data-lucide="sun" class="sun"></i>
+                        <i data-lucide="moon" class="moon"></i>
+                        <span class="toggle-ball"></span>
+                    </label>
+                </div>
+                <div class="btn-group">
+                    <button class="hud-btn" onclick="pres.goto(0)" title="Home (H)"><i data-lucide="home"></i></button>
+                    <button class="hud-btn" onclick="pres.prev()" title="Prev (Left)"><i
+                            data-lucide="chevron-left"></i></button>
+                    <button class="hud-btn" onclick="pres.next()" title="Next (Right)"><i
+                            data-lucide="chevron-right"></i></button>
+                    <button class="hud-btn" onclick="window.print()" title="Print (P)"><i
+                            data-lucide="printer"></i></button>
+                    <button class="hud-btn" id="help-btn" title="Help (?)"><i data-lucide="help-circle"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div id="help-modal" class="modal-overlay">
+            <div class="modal-content glass-card">
+                <h2>Presentation Shortcuts</h2>
+                <div class="shortcut-grid">
+                    <div class="shortcut-item"><kbd>→</kbd> / <kbd>Space</kbd><span>다음 슬라이드 / 단계</span></div>
+                    <div class="shortcut-item"><kbd>←</kbd> / <kbd>Backspace</kbd><span>이전 슬라이드</span></div>
+                    <div class="shortcut-item"><kbd>H</kbd><span>첫 슬라이드로</span></div>
+                    <div class="shortcut-item"><kbd>P</kbd><span>PDF로 내보내기 (인쇄)</span></div>
+                    <div class="shortcut-item"><kbd>T</kbd><span>테마 전환</span></div>
+                    <div class="shortcut-item"><kbd>?</kbd><span>도움말 열기/닫기</span></div>
+                    <div class="shortcut-item"><kbd>Esc</kbd><span>도움말 닫기</span></div>
+                </div>
+                <button id="close-help" class="close-btn">닫기</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

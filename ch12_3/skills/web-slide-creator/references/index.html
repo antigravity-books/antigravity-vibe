@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark" data-palette="emerald">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 리더십: 하네스 엔지니어링</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=JetBrains+Mono:wght@500;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Charts: ApexCharts for Premium Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation">
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <!-- Slide 01: Opening -->
+        <section class="slide active" id="slide-1">
+            <div class="content center">
+                <div class="badge" data-step>AI Leadership 2024</div>
+                <h1 class="gradient-text" data-step>사용자에서 리더로:<br>AI 리더십의 시대</h1>
+                <p class="head-message" data-step>누구나 똑똑한 천재 비서를 고용할 수 있는 시대, 당신은 리더입니까?</p>
+            </div>
+        </section>
+
+        <!-- Slide 02: Issue Awareness -->
+        <section class="slide" id="slide-2">
+            <div class="slide-header">
+                <div class="badge">Problem Awareness</div>
+                <h2>사용자와 리더의 격차</h2>
+            </div>
+            <div class="content">
+                <p class="head-message">똑같은 모델, 전혀 다른 결과물</p>
+                <div class="grid-2col">
+                    <div class="step-card" data-step>
+                        <i data-lucide="search"></i>
+                        <h3>단순 사용자</h3>
+                        <p>오타 수정, 단순 검색, 단발성 질문에 그치는 활용</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="zap"></i>
+                        <h3>리서치 & 리더</h3>
+                        <p>분석, 보고서 작성, 코딩까지 이어지는 풀스택 자동화</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 03: Metaphor - Abandonment -->
+        <section class="slide" id="slide-3">
+            <div class="slide-header">
+                <div class="badge">Metaphor</div>
+                <h2>방치된 천재 신입사원</h2>
+            </div>
+            <div class="content">
+                <div style="display: flex; align-items: center; gap: 6rem; margin-top: 4rem;">
+                    <div style="flex: 1;">
+                        <p class="head-message" style="margin-bottom: 3rem;">AI는 방대한 지식을 가진 '천재 신입'과 같습니다.</p>
+                        <div class="step-card" data-step style="border-left: 5px solid #f43f5e;">
+                            <h3 style="color: #f43f5e;">막연한 지시의 결과</h3>
+                            <p>"시장 조사 좀 해줘" -> 엉뚱한 결과와 '환각(Hallucination)'</p>
+                        </div>
+                    </div>
+                    <div style="flex: 0.8; background: var(--bg-card); padding: 5rem; border-radius: 4rem; text-align: center;" data-step>
+                        <i data-lucide="user-x" style="width: 12rem; height: 12rem; color: #f43f5e; margin-bottom: 3rem;"></i>
+                        <p style="font-weight: 800; font-size: 2.4rem;">지시가 아닌 시스템이 필요합니다</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 04: Core Idea -->
+        <section class="slide" id="slide-4">
+            <div class="content center">
+                <div class="badge" data-step>Core Vision</div>
+                <h2 data-step>프롬프트를 넘어선 환경</h2>
+                <p class="head-message" data-step style="max-width: 80rem;">우리는 타이핑하는 방법(Prompt)에 집착합니다.<br>하지만 정말 중요한 것은 그들을 담아낼 <strong>시스템</strong>입니다.</p>
+                <div style="margin-top: 5rem;" data-step>
+                    <i data-lucide="layout" style="width: 8rem; height: 8rem; opacity: 0.5;"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 05: Concept - Harness Engineering -->
+        <section class="slide" id="slide-5">
+            <div class="slide-header">
+                <div class="badge">Concept</div>
+                <h2>Harness Engineering</h2>
+            </div>
+            <div class="content">
+                <div class="grid-2col" style="align-items: center;">
+                    <div class="step-card" data-step>
+                        <i data-lucide="link"></i>
+                        <h3>하네스(마구)란?</h3>
+                        <p>야생마의 거친 에너지를 예측 가능하게 통제하고 목적지로 이끄는 제어 도구</p>
+                    </div>
+                    <div data-step>
+                        <h3 class="gradient-text" style="font-size: 4.8rem; line-height: 1.2;">거대한 AI의 힘을<br>비즈니스로 연결하는<br>AI 리더십</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 06: 3 Pillars -->
+        <section class="slide" id="slide-6">
+            <div class="slide-header">
+                <div class="badge">Components</div>
+                <h2>AI 리더십의 3가지 기둥</h2>
+            </div>
+            <div class="content">
+                <div class="grid-3col">
+                    <div class="step-card" data-step>
+                        <i data-lucide="scroll-text"></i>
+                        <h3>1. 규칙 (Rules)</h3>
+                        <p>명확한 가드레일 설정</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="wrench"></i>
+                        <h3>2. 도구 (Tools)</h3>
+                        <p>데이터 연결 (MCP)</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="users"></i>
+                        <h3>3. 팀 (Teams)</h3>
+                        <p>다중 에이전트 협업</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 07: Pillar 1 - Guardrails -->
+        <section class="slide" id="slide-7">
+            <div class="slide-header">
+                <div class="badge">Pillar 1</div>
+                <h2>방향을 잡아주는 규칙</h2>
+            </div>
+            <div class="content">
+                <div style="display: flex; gap: 4rem; margin-top: 4rem;">
+                    <div class="step-card" style="flex: 1;" data-step>
+                        <h3>명확한 페르소나</h3>
+                        <p>어떤 전문가로서 행동해야 하는지 정의</p>
+                    </div>
+                    <div class="step-card" style="flex: 1;" data-step>
+                        <h3>가드레일(Guardrails)</h3>
+                        <p>절대로 만져서는 안 될 상한과 하한을 설정</p>
+                    </div>
+                </div>
+                <p class="head-message" style="margin-top: 5rem; text-align: center;" data-step>훌륭한 리더는 선을 그어줍니다.</p>
+            </div>
+        </section>
+
+        <!-- Slide 08: Pillar 2 - MCP -->
+        <section class="slide" id="slide-8">
+            <div class="slide-header">
+                <div class="badge">Pillar 2</div>
+                <h2>강력한 무기: 도구와 MCP</h2>
+            </div>
+            <div class="content">
+                <div class="grid-2col">
+                    <div class="step-card" data-step>
+                        <i data-lucide="milestone"></i>
+                        <h3>장비의 연결</h3>
+                        <p>파일 읽기, DB 접근, 실시간 인터넷 탐색 능력을 AI에게 부여</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="swords"></i>
+                        <h3>Model Context Protocol</h3>
+                        <p>맨손이 아닌 최신 무기를 쥐어주는 제어 프로토콜</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 09: Pillar 3 - Workflow -->
+        <section class="slide" id="slide-9">
+            <div class="slide-header">
+                <div class="badge">Pillar 3</div>
+                <h2>거대한 업무의 분산</h2>
+            </div>
+            <div class="content">
+                <div class="grid-3col">
+                    <div class="step-card" data-step>
+                        <h4 style="font-size: 2rem; color: var(--primary);">기획 AI</h4>
+                        <p>전략 및 구조 설계</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <h4 style="font-size: 2rem; color: var(--primary);">코드/실무 AI</h4>
+                        <p>실제 구현 수행</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <h4 style="font-size: 2rem; color: var(--primary);">리뷰/QA AI</h4>
+                        <p>상호작용을 통한 검증</p>
+                    </div>
+                </div>
+                <p class="head-message" style="margin-top: 5rem; text-align: center;" data-step>다중 에이전트(Multi-Agent) 워크플로우를 통한 자율성 확보.</p>
+            </div>
+        </section>
+
+        <!-- Slide 10: Chat vs Autonomous Organization -->
+        <section class="slide" id="slide-10">
+            <div class="slide-header">
+                <div class="badge">Comparison</div>
+                <h2>채팅과 자율 조직의 차이</h2>
+            </div>
+            <div class="content">
+                <div style="margin-top: 5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;">
+                    <!-- Bad Case -->
+                    <div class="comparison-card bad" data-step style="background: var(--bg-card); border: 2px solid rgba(244, 63, 94, 0.4); padding: 4rem; border-radius: 3rem;">
+                        <h3 style="display: flex; align-items: center; gap: 1rem; color: #f43f5e; font-size: 2.8rem;">
+                            <i data-lucide="message-square" style="color: #f43f5e;"></i> 단순 채팅 (Ping-Pong)
+                        </h3>
+                        <p style="font-size: 2.0rem; line-height: 1.8; margin-top: 2rem; color: var(--text-main);">
+                            사용자가 질문하고 AI가 한 줄 대답하는<br>
+                            개인 도구 수준의 활용
+                        </p>
+                    </div>
+                    <!-- Good Case -->
+                    <div class="comparison-card good" data-step style="background: var(--bg-card); border: 2px solid rgba(16, 185, 129, 0.4); padding: 4rem; border-radius: 3rem;">
+                        <h3 style="display: flex; align-items: center; gap: 1rem; color: #10b981; font-size: 2.8rem;">
+                            <i data-lucide="network" style="color: #10b981;"></i> 자율형 AI 조직
+                        </h3>
+                        <p style="font-size: 2.0rem; line-height: 1.8; margin-top: 2rem; color: var(--text-main);">
+                            복잡한 문제를 던지면 스스로 상호작용하여<br>
+                            일을 끝내는 자율 하네스 조직
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 11: Vision -->
+        <section class="slide" id="slide-11">
+            <div class="content center">
+                <div class="badge" data-step>Vision</div>
+                <h2 class="gradient-text" data-step>당신의 리더십에 답이 있다</h2>
+                <p class="head-message" data-step style="max-width: 90rem;">미래의 경쟁력은 어떤 모델을 쓰느냐에 있지 않습니다.<br>진짜 차별점은 그들을 담아낼 <strong>나만의 시스템</strong>,<br>당신의 <strong>'AI 리더십'</strong>에 달려 있습니다.</p>
+            </div>
+        </section>
+
+        <!-- Slide 12: Closing -->
+        <section class="slide" id="slide-12">
+            <div class="content center">
+                <h2 data-step>새로운 시대의 설계자가 되십시오</h2>
+                <p class="head-message" data-step style="margin-bottom: 5rem;">내일 아침 엔터를 치는 사용자입니까,<br>시스템을 지휘하는 리더입니까?</p>
+                <div class="grid-3col" style="width: 100%;">
+                    <div class="step-card" data-step>
+                        <i data-lucide="scroll-text"></i>
+                        <p>Rules</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="wrench"></i>
+                        <p>Tools</p>
+                    </div>
+                    <div class="step-card" data-step>
+                        <i data-lucide="users"></i>
+                        <p>Teams</p>
+                    </div>
+                </div>
+                <p style="margin-top: 5rem; font-weight: 800; color: var(--primary);" data-step>경청해 주셔서 감사합니다. Q&A</p>
+            </div>
+        </section>
+
+        <!-- Slide 13: Premium Data Visualization -->
+        <section class="slide" id="slide-13">
+            <div class="slide-header">
+                <div class="badge">Advanced Analytics</div>
+                <h2>수치로 증명되는 AI 리더십의 가치</h2>
+            </div>
+            <div class="content">
+                <div class="grid-3col" style="margin-top: 2rem; gap: 3rem;">
+                    <!-- 1. 효율 격차 (Bar) -->
+                    <div class="step-card" data-step style="padding: 3rem;">
+                        <h4 style="font-size: 1.8rem; margin-bottom: 2rem; color: var(--text-main);">업무 효율성 증대율</h4>
+                        <div id="chart-efficiency" style="min-height: 250px;"></div>
+                    </div>
+                    <!-- 2. 정확도 (Radial) -->
+                    <div class="step-card" data-step style="padding: 3rem;">
+                        <h4 style="font-size: 1.8rem; margin-bottom: 2rem; color: var(--text-main);">프롬프트 정확도 향상</h4>
+                        <div id="chart-accuracy" style="min-height: 250px;"></div>
+                    </div>
+                    <!-- 3. 생산성 추이 (Area) -->
+                    <div class="step-card" data-step style="padding: 3rem;">
+                        <h4 style="font-size: 1.8rem; margin-bottom: 2rem; color: var(--text-main);">월별 자동화 생산성</h4>
+                        <div id="chart-trend" style="min-height: 250px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HUD UI -->
+        <div class="hud-overlay">
+            <div class="palette-swatcher">
+                <div class="swatch active" style="background: #10b981;" data-palette="emerald"></div>
+                <div class="swatch" style="background: #6366f1;" data-palette="indigo"></div>
+                <div class="swatch" style="background: #f43f5e;" data-palette="rose"></div>
+            </div>
+            
+            <div class="nav-controls">
+                <div id="slide-number">01 / 13</div>
+                <button class="nav-btn" id="prev-btn"><i data-lucide="chevron-left"></i></button>
+                <button class="nav-btn" id="next-btn"><i data-lucide="chevron-right"></i></button>
+                <button class="nav-btn" id="theme-toggle" style="margin-left: 1rem;"><i data-lucide="moon"></i></button>
+                <button class="nav-btn" id="home-btn" style="margin-left: 1rem;"><i data-lucide="home"></i></button>
+            </div>
+
+            <div class="shortcuts-info">Navigate by SPACE, Arrows | [H] Home</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
