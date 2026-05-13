@@ -1,5 +1,5 @@
 # 12.2 Prompt 1:
-https://github.com/vibecoding-creator/harness-100-antigravity에서 코드를 받아줘
+https://github.com/antigravity-books/harness-100-antigravity에서 코드를 받아줘
 
 # 12.3 Prompt 1:
 ## first step: /startcycle 입력 후 tab까지 입력
