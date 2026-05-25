@@ -10,7 +10,7 @@
 > [!IMPORTANT]
 > 아래 링크를 누르시면 스마트폰이나 PC 화면에서 **별도의 앱 설치나 다운로드 없이 고화질 가이드북 화면이 즉시 열립니다.**
 > 
-> 👉 **[📄 안티그래비티 2.x 업데이트 대응 가이드 (PDF 바로보기 및 다운로드)](https://github.com/antigravity-books/antigravity-vibe/raw/main/guide/안티그래비티_2_0_업데이트_대응_가이드_최종버전.pdf)**
+> 👉 **[📄 안티그래비티 2.x 업데이트 대응 가이드 (PDF 바로보기 및 다운로드)](https://github.com/antigravity-books/antigravity-vibe/raw/main/guide/안티그래비티_2_0_업데이트_대응_가이드.pdf)**
 
 ---
 
