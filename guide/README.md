@@ -10,7 +10,6 @@
 | 제공 포맷 | 다운로드 및 바로보기 링크 |
 | :---: | :--- |
 | **📄 PDF 파일** | **[📄 바로보기 및 다운로드 링크 (클릭)](https://github.com/antigravity-books/antigravity-vibe/raw/main/guide/안티그래비티_2_0_업데이트_대응_가이드_최종버전.pdf)**
-| **📝 Word 파일** | **[📝 원본 파일 다운로드 링크 (클릭)](https://github.com/antigravity-books/antigravity-vibe/raw/main/guide/안티그래비티_2_0_업데이트_대응_가이드_최종버전.docx)** 
 
 ---
 
